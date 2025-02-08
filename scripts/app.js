@@ -23,22 +23,42 @@ homeScorePlusOne.addEventListener('click', () => {
     homeScoreCount++;
     homeScore.textContent = homeScoreCount;
 
-    console.log("Button (+1) has been clicked.");
+    console.log("Button (+1, Home) has been clicked.");
 });
 
 homeScorePlusTwo.addEventListener('click', () => {
     homeScoreCount += 2;
     homeScore.textContent = homeScoreCount;
 
-    console.log("Button (+2) has been clicked.");
+    console.log("Button (+2, Home) has been clicked.");
 });
 
 homeScorePlusThree.addEventListener('click', () => {
     homeScoreCount += 3;
     homeScore.textContent = homeScoreCount;
 
-    console.log("Button (+3) has been clicked.");
+    console.log("Button (+3, Home) has been clicked.");
 });
 
 // Guest Scores
 
+guestScorePlusOne.addEventListener('click', () => {
+    guestScoreCount++;
+    guestScore.textContent = guestScoreCount;
+
+    console.log("Button (+1, Guest) has been clicked.")
+});
+
+guestScorePlusTwo.addEventListener('click', () => {
+    guestScoreCount += 2;
+    guestScore.textContent = guestScoreCount;
+
+    console.log("Button (+2, Guest) has been clicked.")
+});
+
+guestScorePlusThree.addEventListener('click', () => {
+    guestScoreCount += 3;
+    guestScore.textContent = guestScoreCount;
+
+    console.log("Button (+3, Guest) has been clicked.");
+});
